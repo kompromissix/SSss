@@ -1,0 +1,72 @@
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 191px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 80%;
+    height: 121px;
+}
+.top input{
+    height: 20px;
+    width: 262px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.top > img{
+    height: 65px;
+    width: 235px;
+}
+.bottom{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.vov{
+    text-decoration: none;
+    color: white;
+}
+.bottom >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: end;
+}
+.left img{
+    width: 28px;
+    height: 28px;
+}
+.head{
+    background-color: blue;
+}
